@@ -49,6 +49,10 @@ nav li{
 
 nav ul{
     display: flex;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: white;
 }
 nav a{
     display: block;
