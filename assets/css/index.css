@@ -199,3 +199,55 @@ article .new_resume{
     font-size: 14px;
     margin-bottom: 30px;
 }
+/*==========================================================FOOTER==========================================*/
+
+footer{
+    color: white;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.footer_menu{
+    display: flex;
+  
+}
+.footer1,
+.footer2,
+.footer3{
+    flex: 1;
+    padding: 20px;
+}
+.footer1{
+    background-color: #39aae1;
+}
+.footer2{
+    background-color: #0079c7;
+}
+.footer3{
+    background-color: #2b4c99;
+}
+
+.footer_area{
+    display: flex;
+    color: white;
+}
+.area{
+    flex: 1;
+}
+footer .widget_title_text{
+    color: white;
+}
+
+/*==========================================================RODA PE==========================================*/
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
