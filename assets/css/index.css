@@ -12,6 +12,21 @@ header{
     justify-content: center;
     height: 120px;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mmLine{
+    height: 3px;
+    background-color: #39aae1;
+    line-height: 2px;
+    
+}
+
 .container{
     display: flex;  /*aqui vai deixar o logo e o menu um do lado do outro*/
     justify-content: space-between; /*aqui vai deixar logo do lado direito e menu lado esquerdo*/
@@ -251,3 +266,44 @@ footer .widget_title_text{
     font-size: 12px;
     margin-top: 30px;
 }
+
+/*==========================================================RESPONSIVO==========================================*/
+
+@media (max-width:600px){
+    .banner_headeline h1{
+        font-size: 55px;
+        padding: 20px;
+    }
+    .banner_headeline h2{
+        font-size: 17px;
+    }
+
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section{
+        padding: 20px;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+
+    header{
+        height: auto;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    } 
+
+
+}   
