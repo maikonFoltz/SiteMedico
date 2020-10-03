@@ -1,0 +1,24 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+/*======================CABEÇARIO DO SITE=======================================================================*/
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;  /*aqui vai deixar o logo e o menu um do lado do outro*/
+    justify-content: space-between; /*aqui vai deixar logo do lado direito e menu lado esquerdo*/
+    width: 990px;
+    background-color: aqua;
+}    
+.logo{
+    display: flex;
+    align-items: center;/*aqui vai alinhar o logo ao centro verticalmente*/
+}
+.menu{
+
+}
